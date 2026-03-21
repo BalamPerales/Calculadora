@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de Permisos</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="public/bootstrap/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="row justify-content-center">
+        <h1>Permisos</h1>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-5">
+          <div class="tarjeta-permisos p-4 shadow-sm mt-4">
+            <div class="form-group mb-4">
+              <label for="inputPermisos" class="texto-pastel font-weight-bold"
+                >Ingresa el número de permisos:</label
+              >
+              <input
+                type="text"
+                id="inputPermisos"
+                class="form-control input-verde font-weight-bold"
+                maxlength="3"
+                value="677"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="selectUsuario" class="texto-pastel font-weight-bold"
+                >Permiso usuario:</label
+              >
+              <select
+                id="selectUsuario"
+                class="form-control select-redondeado shadow-sm"
+              >
+                <option value="0">Ninguno</option>
+                <option value="1">Ejecución</option>
+                <option value="2">Escritura</option>
+                <option value="3">Escritura y Ejecución</option>
+                <option value="4">Lectura</option>
+                <option value="5">Lectura y Ejecución</option>
+                <option value="6">Lectura y Escritura</option>
+                <option value="7">Todos</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="selectGrupo" class="texto-pastel font-weight-bold"
+                >Permiso grupo:</label
+              >
+              <select
+                id="selectGrupo"
+                class="form-control select-redondeado shadow-sm"
+              >
+                <option value="0">Ninguno</option>
+                <option value="1">Ejecución</option>
+                <option value="2">Escritura</option>
+                <option value="3">Escritura y Ejecución</option>
+                <option value="4">Lectura</option>
+                <option value="5">Lectura y Ejecución</option>
+                <option value="6">Lectura y Escritura</option>
+                <option value="7">Todos</option>
+              </select>
+            </div>
+
+            <div class="form-group mb-2">
+              <label for="selectOtros" class="texto-pastel font-weight-bold"
+                >Permiso otros:</label
+              >
+              <select
+                id="selectOtros"
+                class="form-control select-redondeado shadow-sm"
+              >
+                <option value="0">Ninguno</option>
+                <option value="1">Ejecución</option>
+                <option value="2">Escritura</option>
+                <option value="3">Escritura y Ejecución</option>
+                <option value="4">Lectura</option>
+                <option value="5">Lectura y Ejecución</option>
+                <option value="6">Lectura y Escritura</option>
+                <option value="7">Todos</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

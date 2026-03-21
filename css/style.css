@@ -1,0 +1,27 @@
+body {
+  background-color: #e9ecef;
+}
+.tarjeta-permisos {
+  border-radius: 20px;
+  background-color: #fdfdfd;
+  border: 2px solid #dcdde1;
+}
+.texto-pastel {
+  color: #5bc0de;
+}
+.input-verde {
+  background-color: #1e7e34 !important;
+  color: white !important;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  border: none;
+}
+.input-verde:focus {
+  background-color: #155d27 !important;
+  color: white !important;
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}
+.select-redondeado {
+  border-radius: 8px;
+  color: #495057;
+}
